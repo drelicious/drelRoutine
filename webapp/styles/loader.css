@@ -1,0 +1,23 @@
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    margin: -75px 0 0 -75px;
+    padding-left: 1rem;
+    border-radius: 50%;
+    animation: zoom 0.5s;
+  }
+  #allwebpage {
+    display: none;
+    animation: slideup 0.5s;
+  }
+
+  #header-area a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    font-weight: 100;
+}

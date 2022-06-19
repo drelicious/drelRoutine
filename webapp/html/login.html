@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>drelRoutine - Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet"> 
+    <link href="/webapp/styles/login.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body onload="myFunction()">
+    <!--Scripts for bootstrap do not remove-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <!--Important for every web-page-->
+    <div id="loader">
+        <img src="/webapp/images/logo-light.png">
+    </div>
+    <script src="/webapp/scripts/pageanimation.js"></script>
+    <section id="allwebpage">
+    <section id="header-area">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <h1><a class="nav-link" href="/index.html">drelRoutine</a></h1>
+                <button style="border-color: #e0e0e0;" class="btn btn rounded-pill buttonlogin"><a href="/webapp/register.php" class="test"">Sign up</a></button>
+            </div>
+        </nav>
+
+    </section>
+        <div class="d-flex justify-content-center">
+            <div class="card" style="width: 18rem; margin-top: 4%;">
+                <div class="card-body">
+                    <h2 class="card-title">Sign In</h2>
+                    <p>A step to your goal.</p>
+                    <form action="/webapp/php/login.php" method="post">
+                        <div class="form-group">
+                            <label for="username" style="margin: 10px 0px;">Email</label>
+                            <input type="text" class="form-control" id="username" name="username" placeholder="Email or username">
+                        </div>
+                        <div class="form-group">
+                            <label for="password" style="margin: 10px 0px;">Password</label>
+                            <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+                        </div>
+                        <p style="margin: 10px 0px" ><a href="/webapp/forgot-password.php" >Forgot Password?</a></p>
+                        <button type="submit" style="margin-top: 40px; border-color: #e0e0e0;" class="btn btn position-relative start-50 translate-middle rounded-pill buttonlogin">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </section>
+</body>
+</html>
