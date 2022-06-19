@@ -95,7 +95,7 @@ $minute = date('H:i');
         <section id="header-area">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                    <h1><a class="nav-link" href="/index.html">drelRoutine</a></h1>
+                    <h1><a class="nav-link" href="/dashboard.php">drelRoutine</a></h1>
                     <img src="/webapp/images/user.svg" style="width: 2rem;" onclick="openDropDown()">
                 </div>
             </nav>

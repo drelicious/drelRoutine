@@ -80,7 +80,7 @@ if(isset($_POST['submitButton'])){
         <section id="header-area">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                    <h1><a class="nav-link" href="/index.html">drelRoutine</a></h1>
+                    <h1><a class="nav-link" href="/dashboard.php">drelRoutine</a></h1>
                     <button style="border-color: #e0e0e0;" class="btn btn rounded-pill buttonlogin"><a href="/webapp/login.php" class="test"">Sign In</a></button>
                 </div>
             </nav>
